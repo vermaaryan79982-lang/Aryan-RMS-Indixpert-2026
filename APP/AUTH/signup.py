@@ -121,3 +121,4 @@ class Signup:
         except Exception as e:
             self.logger.log(str(e))
             console.print("[bold red]❌ Error occurred[/bold red]")
+

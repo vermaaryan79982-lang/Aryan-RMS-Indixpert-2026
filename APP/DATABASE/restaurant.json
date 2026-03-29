@@ -1,0 +1,27 @@
+{
+    "name": "Indixpert Restaurant",
+    "location": "Mithapur, India",
+    "rating": "4.5",
+    "contact": "9876543210",
+
+    "timing": {
+        "morning": "9 AM - 12 PM",
+        "afternoon": "1 PM - 5 PM",
+        "evening": "6 PM - 11 PM"
+    },
+
+    "about": "Welcome to Indixpert Restaurant! We provide the best quality food with excellent service. Enjoy your meal with us 😍",
+
+    "speciality": [
+        "North Indian Food",
+        "Chinese",
+        "Fast Food",
+        "Desserts"
+    ],
+
+    "offers": [
+        "10% off on first order",
+        "Free drink on orders above ₹500",
+        "Weekend special discounts"
+    ]
+}
