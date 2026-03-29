@@ -1,0 +1,746 @@
+[
+    {
+        "id": 101,
+        "name": "Paneer Butter Masala",
+        "category": "veg",
+        "half_price": 80,
+        "full_price": 160
+    },
+    {
+        "id": 102,
+        "name": "Kadai Paneer",
+        "category": "veg",
+        "half_price": 90,
+        "full_price": 180
+    },
+    {
+        "id": 103,
+        "name": "Shahi Paneer",
+        "category": "veg",
+        "half_price": 85,
+        "full_price": 170
+    },
+    {
+        "id": 104,
+        "name": "Mix Veg",
+        "category": "veg",
+        "price": 120
+    },
+    {
+        "id": 105,
+        "name": "Aloo Gobi",
+        "category": "veg",
+        "price": 90
+    },
+    {
+        "id": 106,
+        "name": "Dal Fry",
+        "category": "veg",
+        "price": 80
+    },
+    {
+        "id": 107,
+        "name": "Dal Tadka",
+        "category": "veg",
+        "price": 100
+    },
+    {
+        "id": 108,
+        "name": "Jeera Rice",
+        "category": "veg",
+        "price": 70
+    },
+    {
+        "id": 109,
+        "name": "Veg Biryani",
+        "category": "veg",
+        "price": 120
+    },
+    {
+        "id": 110,
+        "name": "Veg Fried Rice",
+        "category": "veg",
+        "price": 110
+    },
+    {
+        "id": 111,
+        "name": "Veg Noodles",
+        "category": "veg",
+        "price": 100
+    },
+    {
+        "id": 112,
+        "name": "Chole Bhature",
+        "category": "veg",
+        "price": 90
+    },
+    {
+        "id": 113,
+        "name": "Rajma Rice",
+        "category": "veg",
+        "price": 100
+    },
+    {
+        "id": 114,
+        "name": "Matar Paneer",
+        "category": "veg",
+        "half_price": 80,
+        "full_price": 160
+    },
+    {
+        "id": 115,
+        "name": "Palak Paneer",
+        "category": "veg",
+        "half_price": 85,
+        "full_price": 170
+    },
+    {
+        "id": 116,
+        "name": "Veg Kofta",
+        "category": "veg",
+        "half_price": 90,
+        "full_price": 180
+    },
+    {
+        "id": 117,
+        "name": "Tandoori Roti",
+        "category": "veg",
+        "price": 20
+    },
+    {
+        "id": 118,
+        "name": "Butter Naan",
+        "category": "veg",
+        "price": 30
+    },
+    {
+        "id": 119,
+        "name": "Garlic Naan",
+        "category": "veg",
+        "price": 40
+    },
+    {
+        "id": 120,
+        "name": "Plain Rice",
+        "category": "veg",
+        "price": 60
+    },
+    {
+        "id": 121,
+        "name": "Veg Manchurian",
+        "category": "veg",
+        "price": 130
+    },
+    {
+        "id": 122,
+        "name": "Veg Spring Roll",
+        "category": "veg",
+        "price": 120
+    },
+    {
+        "id": 123,
+        "name": "Corn Soup",
+        "category": "veg",
+        "price": 70
+    },
+    {
+        "id": 124,
+        "name": "Tomato Soup",
+        "category": "veg",
+        "price": 60
+    },
+    {
+        "id": 125,
+        "name": "Paneer Tikka",
+        "category": "veg",
+        "price": 150
+    },
+    {
+        "id": 126,
+        "name": "Veg Sandwich",
+        "category": "veg",
+        "price": 80
+    },
+    {
+        "id": 127,
+        "name": "Cheese Sandwich",
+        "category": "veg",
+        "price": 100
+    },
+    {
+        "id": 128,
+        "name": "Veg Burger",
+        "category": "veg",
+        "price": 90
+    },
+    {
+        "id": 129,
+        "name": "French Fries",
+        "category": "veg",
+        "price": 70
+    },
+    {
+        "id": 130,
+        "name": "Veg Pizza",
+        "category": "veg",
+        "price": 200
+    },
+    {
+        "id": 131,
+        "name": "Paneer Pizza",
+        "category": "veg",
+        "price": 220
+    },
+    {
+        "id": 132,
+        "name": "Veg Pasta",
+        "category": "veg",
+        "price": 150
+    },
+    {
+        "id": 133,
+        "name": "White Sauce Pasta",
+        "category": "veg",
+        "price": 160
+    },
+    {
+        "id": 134,
+        "name": "Red Sauce Pasta",
+        "category": "veg",
+        "price": 150
+    },
+    {
+        "id": 135,
+        "name": "Veg Momos",
+        "category": "veg",
+        "price": 90
+    },
+    {
+        "id": 136,
+        "name": "Paneer Momos",
+        "category": "veg",
+        "price": 110
+    },
+    {
+        "id": 137,
+        "name": "Veg Cutlet",
+        "category": "veg",
+        "price": 80
+    },
+    {
+        "id": 138,
+        "name": "Aloo Tikki",
+        "category": "veg",
+        "price": 60
+    },
+    {
+        "id": 139,
+        "name": "Dosa",
+        "category": "veg",
+        "price": 90
+    },
+    {
+        "id": 140,
+        "name": "Masala Dosa",
+        "category": "veg",
+        "price": 110
+    },
+    {
+        "id": 201,
+        "name": "Chicken Curry",
+        "category": "nonveg",
+        "half_price": 120,
+        "full_price": 240
+    },
+    {
+        "id": 202,
+        "name": "Butter Chicken",
+        "category": "nonveg",
+        "half_price": 130,
+        "full_price": 260
+    },
+    {
+        "id": 203,
+        "name": "Chicken Biryani",
+        "category": "nonveg",
+        "half_price": 140,
+        "full_price": 280
+    },
+    {
+        "id": 204,
+        "name": "Mutton Curry",
+        "category": "nonveg",
+        "half_price": 150,
+        "full_price": 300
+    },
+    {
+        "id": 205,
+        "name": "Mutton Biryani",
+        "category": "nonveg",
+        "half_price": 160,
+        "full_price": 320
+    },
+    {
+        "id": 206,
+        "name": "Chicken Fry",
+        "category": "nonveg",
+        "price": 200
+    },
+    {
+        "id": 207,
+        "name": "Chicken Tikka",
+        "category": "nonveg",
+        "price": 220
+    },
+    {
+        "id": 208,
+        "name": "Chicken Lollipop",
+        "category": "nonveg",
+        "price": 180
+    },
+    {
+        "id": 209,
+        "name": "Egg Curry",
+        "category": "nonveg",
+        "price": 100
+    },
+    {
+        "id": 210,
+        "name": "Egg Biryani",
+        "category": "nonveg",
+        "price": 120
+    },
+    {
+        "id": 211,
+        "name": "Fish Curry",
+        "category": "nonveg",
+        "half_price": 140,
+        "full_price": 280
+    },
+    {
+        "id": 212,
+        "name": "Fish Fry",
+        "category": "nonveg",
+        "price": 200
+    },
+    {
+        "id": 213,
+        "name": "Prawn Curry",
+        "category": "nonveg",
+        "half_price": 160,
+        "full_price": 320
+    },
+    {
+        "id": 214,
+        "name": "Chicken Soup",
+        "category": "nonveg",
+        "price": 90
+    },
+    {
+        "id": 215,
+        "name": "Chicken Noodles",
+        "category": "nonveg",
+        "price": 130
+    },
+    {
+        "id": 216,
+        "name": "Chicken Fried Rice",
+        "category": "nonveg",
+        "price": 140
+    },
+    {
+        "id": 217,
+        "name": "Chicken Burger",
+        "category": "nonveg",
+        "price": 120
+    },
+    {
+        "id": 218,
+        "name": "Chicken Pizza",
+        "category": "nonveg",
+        "price": 250
+    },
+    {
+        "id": 219,
+        "name": "Chicken Pasta",
+        "category": "nonveg",
+        "price": 180
+    },
+    {
+        "id": 220,
+        "name": "Chicken Momos",
+        "category": "nonveg",
+        "price": 120
+    },
+    {
+        "id": 221,
+        "name": "Grilled Chicken",
+        "category": "nonveg",
+        "price": 260
+    },
+    {
+        "id": 222,
+        "name": "Tandoori Chicken",
+        "category": "nonveg",
+        "price": 280
+    },
+    {
+        "id": 223,
+        "name": "Chicken Wings",
+        "category": "nonveg",
+        "price": 200
+    },
+    {
+        "id": 224,
+        "name": "Chicken Roll",
+        "category": "nonveg",
+        "price": 90
+    },
+    {
+        "id": 225,
+        "name": "Egg Roll",
+        "category": "nonveg",
+        "price": 70
+    },
+    {
+        "id": 226,
+        "name": "Chicken Shawarma",
+        "category": "nonveg",
+        "price": 120
+    },
+    {
+        "id": 227,
+        "name": "Chicken Sandwich",
+        "category": "nonveg",
+        "price": 100
+    },
+    {
+        "id": 228,
+        "name": "Chicken Cutlet",
+        "category": "nonveg",
+        "price": 110
+    },
+    {
+        "id": 229,
+        "name": "Chicken Pakora",
+        "category": "nonveg",
+        "price": 130
+    },
+    {
+        "id": 230,
+        "name": "Chicken Korma",
+        "category": "nonveg",
+        "half_price": 140,
+        "full_price": 280
+    },
+    {
+        "id": 231,
+        "name": "Mutton Korma",
+        "category": "nonveg",
+        "half_price": 160,
+        "full_price": 320
+    },
+    {
+        "id": 232,
+        "name": "Chicken Handi",
+        "category": "nonveg",
+        "half_price": 150,
+        "full_price": 300
+    },
+    {
+        "id": 233,
+        "name": "Mutton Handi",
+        "category": "nonveg",
+        "half_price": 170,
+        "full_price": 340
+    },
+    {
+        "id": 234,
+        "name": "Egg Fried Rice",
+        "category": "nonveg",
+        "price": 120
+    },
+    {
+        "id": 235,
+        "name": "Egg Noodles",
+        "category": "nonveg",
+        "price": 110
+    },
+    {
+        "id": 236,
+        "name": "Fish Tikka",
+        "category": "nonveg",
+        "price": 220
+    },
+    {
+        "id": 237,
+        "name": "Prawn Fry",
+        "category": "nonveg",
+        "price": 250
+    },
+    {
+        "id": 238,
+        "name": "Chicken Malai Tikka",
+        "category": "nonveg",
+        "price": 260
+    },
+    {
+        "id": 239,
+        "name": "Chicken Seekh Kebab",
+        "category": "nonveg",
+        "price": 240
+    },
+    {
+        "id": 240,
+        "name": "Mutton Seekh Kebab",
+        "category": "nonveg",
+        "price": 260
+    },
+    {
+        "id": 301,
+        "name": "Rasmalai",
+        "category": "dessert",
+        "price": 30
+    },
+    {
+        "id": 302,
+        "name": "Gulab Jamun",
+        "category": "dessert",
+        "price": 20
+    },
+    {
+        "id": 303,
+        "name": "Kheer",
+        "category": "dessert",
+        "price": 40
+    },
+    {
+        "id": 304,
+        "name": "Ice Cream",
+        "category": "dessert",
+        "price": 50
+    },
+    {
+        "id": 305,
+        "name": "Chocolate Cake",
+        "category": "dessert",
+        "price": 80
+    },
+    {
+        "id": 306,
+        "name": "Vanilla Cake",
+        "category": "dessert",
+        "price": 70
+    },
+    {
+        "id": 307,
+        "name": "Brownie",
+        "category": "dessert",
+        "price": 60
+    },
+    {
+        "id": 308,
+        "name": "Donut",
+        "category": "dessert",
+        "price": 40
+    },
+    {
+        "id": 309,
+        "name": "Cupcake",
+        "category": "dessert",
+        "price": 50
+    },
+    {
+        "id": 310,
+        "name": "Laddu",
+        "category": "dessert",
+        "price": 20
+    },
+    {
+        "id": 311,
+        "name": "Barfi",
+        "category": "dessert",
+        "price": 25
+    },
+    {
+        "id": 312,
+        "name": "Jalebi",
+        "category": "dessert",
+        "price": 30
+    },
+    {
+        "id": 313,
+        "name": "Rabri",
+        "category": "dessert",
+        "price": 60
+    },
+    {
+        "id": 314,
+        "name": "Falooda",
+        "category": "dessert",
+        "price": 80
+    },
+    {
+        "id": 315,
+        "name": "Milkshake",
+        "category": "dessert",
+        "price": 70
+    },
+    {
+        "id": 316,
+        "name": "Cold Coffee",
+        "category": "dessert",
+        "price": 80
+    },
+    {
+        "id": 317,
+        "name": "Hot Chocolate",
+        "category": "dessert",
+        "price": 90
+    },
+    {
+        "id": 318,
+        "name": "Pudding",
+        "category": "dessert",
+        "price": 60
+    },
+    {
+        "id": 319,
+        "name": "Fruit Salad",
+        "category": "dessert",
+        "price": 50
+    },
+    {
+        "id": 320,
+        "name": "Ice Cream Sundae",
+        "category": "dessert",
+        "price": 100
+    },
+    {
+        "id": 321,
+        "name": "Chocolate Mousse",
+        "category": "dessert",
+        "price": 90
+    },
+    {
+        "id": 322,
+        "name": "Strawberry Cake",
+        "category": "dessert",
+        "price": 85
+    },
+    {
+        "id": 323,
+        "name": "Black Forest Cake",
+        "category": "dessert",
+        "price": 100
+    },
+    {
+        "id": 324,
+        "name": "White Forest Cake",
+        "category": "dessert",
+        "price": 100
+    },
+    {
+        "id": 325,
+        "name": "Caramel Custard",
+        "category": "dessert",
+        "price": 70
+    },
+    {
+        "id": 326,
+        "name": "Cheesecake",
+        "category": "dessert",
+        "price": 120
+    },
+    {
+        "id": 327,
+        "name": "Macaron",
+        "category": "dessert",
+        "price": 90
+    },
+    {
+        "id": 328,
+        "name": "Waffle",
+        "category": "dessert",
+        "price": 110
+    },
+    {
+        "id": 329,
+        "name": "Choco Lava Cake",
+        "category": "dessert",
+        "price": 120
+    },
+    {
+        "id": 330,
+        "name": "Ice Cream Roll",
+        "category": "dessert",
+        "price": 100
+    },
+    {
+        "id": 331,
+        "name": "Mango Shake",
+        "category": "dessert",
+        "price": 70
+    },
+    {
+        "id": 332,
+        "name": "Banana Shake",
+        "category": "dessert",
+        "price": 60
+    },
+    {
+        "id": 333,
+        "name": "Oreo Shake",
+        "category": "dessert",
+        "price": 90
+    },
+    {
+        "id": 334,
+        "name": "KitKat Shake",
+        "category": "dessert",
+        "price": 100
+    },
+    {
+        "id": 335,
+        "name": "Butterscotch Ice Cream",
+        "category": "dessert",
+        "price": 60
+    },
+    {
+        "id": 336,
+        "name": "Chocolate Ice Cream",
+        "category": "dessert",
+        "price": 60
+    },
+    {
+        "id": 337,
+        "name": "Vanilla Ice Cream",
+        "category": "dessert",
+        "price": 50
+    },
+    {
+        "id": 338,
+        "name": "Strawberry Ice Cream",
+        "category": "dessert",
+        "price": 60
+    },
+    {
+        "id": 339,
+        "name": "Kulfi",
+        "category": "dessert",
+        "price": 40
+    },
+    {
+        "id": 340,
+        "name": "Pista Kulfi",
+        "category": "dessert",
+        "price": 50
+    },
+    {
+        "id": 798,
+        "name": "Milk Shake",
+        "category": "dessert",
+        "half_price": 60,
+        "full_price": 100
+    }
+]

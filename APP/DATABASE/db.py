@@ -13,8 +13,10 @@ class DB:
         path = self.get_path(filename)
 
         try:
+           
             if not os.path.exists(path):
-                return []
+                with open(path, "w") as file:
+                    json.dump([], file)
 
             with open(path, "r") as file:
                 return json.load(file)
@@ -23,10 +25,13 @@ class DB:
             print(f"❌ Error reading {filename}: {e}")
             return []
 
+
     def write(self, filename, data):
         path = self.get_path(filename)
 
         try:
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+
             with open(path, "w") as file:
                 json.dump(data, file, indent=4)
 

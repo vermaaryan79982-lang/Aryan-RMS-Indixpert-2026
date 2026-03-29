@@ -1,6 +1,7 @@
 from APP.AUTH.signup import Signup
 from APP.AUTH.login import Login
 
+from APP.RESTAURANT.restaurant_manager import RestaurantManager
 from APP.MENU.menu_manager import menu_menu
 from APP.ORDER.order_manager import order_menu
 from APP.BOOKING.booking_manager import booking_menu
@@ -60,7 +61,7 @@ class AuthMenu:
             self.chef_dashboard()
 
         elif role == "staff":
-            self.staff_dashboard()
+            self.staff_dashboard(user_id)
 
         elif role == "inventory":
             self.inventory_dashboard()
@@ -80,7 +81,10 @@ class AuthMenu:
                     "🛒 Place Order",
                     "📦 My Orders",
                     "🪑 Book Table",
+                    "📅 View Booking",
                     "💳 Pay Bill",
+                    "📜 Payment History",
+                    "ℹ️ About Restaurant",
                     "🚪 Logout"
                 ]
             ).ask()
@@ -88,7 +92,7 @@ class AuthMenu:
             if choice == "🍽️ View Menu":
                 menu_menu(view_only=True)
 
-            elif choice == "🛒 Place Order":
+            elif choice == "🛒 Place Order": 
                 order_menu(user_id)
 
             elif choice == "📦 My Orders":
@@ -97,8 +101,19 @@ class AuthMenu:
             elif choice == "🪑 Book Table":
                 booking_menu(user_id)
 
+            elif choice == "📅 View Booking":
+                from APP.BOOKING.booking_manager import BookingManager
+                BookingManager().view_booking_history(user_id)
+
             elif choice == "💳 Pay Bill":
                 billing_menu(user_id)
+
+            elif choice == "📜 Payment History":
+                from APP.BILLING.payment_menu import BillingManager
+                BillingManager().view_payment_history(user_id)
+            
+            elif choice == "ℹ️ About Restaurant":
+                RestaurantManager().show_about()
 
             elif choice == "🚪 Logout":
                 break
@@ -114,6 +129,7 @@ class AuthMenu:
                     "➕ Manage Menu",
                     "📊 Reports",
                     "📦 Inventory",
+                    "ℹ️ About Restaurant"
                     "🚪 Logout"
                 ]
             ).ask()
@@ -126,6 +142,9 @@ class AuthMenu:
 
             elif choice == "📦 Inventory":
                 inventory_menu()
+
+            elif choice == "ℹ️ About Restaurant":
+                RestaurantManager().show_about()
 
             elif choice == "🚪 Logout":
                 break
@@ -140,6 +159,7 @@ class AuthMenu:
                 choices=[
                     "📊 Reports",
                     "📦 Inventory",
+                    "ℹ️ About Restaurant",
                     "🚪 Logout"
                 ]
             ).ask()
@@ -149,6 +169,9 @@ class AuthMenu:
 
             elif choice == "📦 Inventory":
                 inventory_menu()
+
+            elif choice == "ℹ️ About Restaurant":
+                RestaurantManager().show_about()
 
             elif choice == "🚪 Logout":
                 break
@@ -166,6 +189,7 @@ class AuthMenu:
                 choices=[
                     "📦 View Orders",
                     "🔄 Update Status",
+                    "ℹ️ About Restaurant",
                     "🚪 Logout"
                 ]
             ).ask()
@@ -176,11 +200,14 @@ class AuthMenu:
             elif choice == "🔄 Update Status":
                 manager.update_status()
 
+            elif choice == "ℹ️ About Restaurant":
+                RestaurantManager().show_about()
+
             elif choice == "🚪 Logout":
                 break
 
 
-    def staff_dashboard(self):
+    def staff_dashboard(self, user_id):
         while True:
             console.print(Panel("🛎️ STAFF DASHBOARD 🛎️", style="blue"))
 
@@ -189,7 +216,7 @@ class AuthMenu:
                 choices=[
                     "📦 View Orders",
                     "🛒 Take Order",
-                    "💰 Billing",
+                    "ℹ️ About Restaurant",
                     "🚪 Logout"
                 ]
             ).ask()
@@ -199,9 +226,9 @@ class AuthMenu:
 
             elif choice == "🛒 Take Order":
                 order_menu()
-
-            elif choice == "💰 Billing":
-                billing_menu()
+            
+            elif choice == "ℹ️ About Restaurant":
+                RestaurantManager().show_about()
 
             elif choice == "🚪 Logout":
                 break
@@ -219,6 +246,7 @@ class AuthMenu:
                     "✏️ Update Item",
                     "❌ Remove Item",
                     "⚠️ Low Stock",
+                    "ℹ️ About Restaurant",
                     "🚪 Logout"
                 ]
             ).ask()
@@ -228,6 +256,7 @@ class AuthMenu:
                 "➕ Add Item",
                 "✏️ Update Item",
                 "❌ Remove Item",
+                "ℹ️ About Restaurant",
                 "⚠️ Low Stock"
             ]:
                 inventory_menu()
@@ -239,3 +268,5 @@ class AuthMenu:
 def start_menu():
     app = AuthMenu()
     app.start()
+
+
